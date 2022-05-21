@@ -1,6 +1,8 @@
 import React from 'react'
 import {StyleSheet, Image, View} from 'react-native'
 
+import colors from '../config/colors'
+
 function viewImagescreen(props){
     return(
         <View style={styles.container}>
@@ -23,7 +25,7 @@ const styles = StyleSheet.create({
         //setting position to absolute so that it can be
         //positioned realiteve to .container
         position: 'absolute',
-        backgroundColor: "#fc5c65",
+        backgroundColor: colors.primary,
         top: 40,
         left: 30,
     },
@@ -33,12 +35,12 @@ const styles = StyleSheet.create({
         //setting position to absolute so that it can be
         //positioned realiteve to .container
         position: 'absolute',
-        backgroundColor: "#4ecdc4",
+        backgroundColor: colors.secondary,
         top: 40,
         right: 30,
     },
     container:{
-        backgroundColor: "#000",
+        backgroundColor: colors.black,
         flex: 1
     }
 })
