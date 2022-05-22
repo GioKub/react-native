@@ -56,7 +56,6 @@ function messagesScreen(props){
             ])
         }}
         />
-        
         </Screen>
     )
 }
