@@ -1,28 +1,12 @@
 import React from 'react'
-import { Text, StyleSheet, Platform} from 'react-native'
+import { Text } from 'react-native'
+
+import defaultSyles from '../config/styles'
 
 function AppText({children, style}){
     return(
-        <Text style={[styles.text, style]}>{children}</Text>
+        <Text style={[defaultSyles.text, style]}>{children}</Text>
     )
 }
-
-
-
-const styles = StyleSheet.create({
-    text:{
-        ...Platform.select({
-            ios: {
-                fontSize: 20,
-                fontFamily: 'Avenir'
-            },
-            android:{
-                fontSize: 18,
-                fontFamily: 'Roboto'
-            }
-        })
-    }
-    
-})
 
 export default AppText
