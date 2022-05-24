@@ -11,8 +11,8 @@ import {
 const initialMessages = [
   {
     id: 1,
-    title: "T1",
-    description: "D1",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio purus, lobortis sit amet fermentum eget, congue at felis. Maecenas posuere faucibus fringilla",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio purus, lobortis sit amet fermentum eget, congue at felis. Maecenas posuere faucibus fringilla",
     image: require("../assets/mosh.jpg"),
   },
   {
