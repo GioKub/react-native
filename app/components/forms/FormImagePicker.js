@@ -23,7 +23,7 @@ export default function FormImagePicker({name}) {
         <>
             <ImageInputList 
             imageUris={imageUris}
-            onAddImage={handelAdd}
+            onAddImage={handleAdd}
             onRemoveImage={handleRemove}
             />
              <ErrorMessage error={errors[name]} visible={touched[name]} />
