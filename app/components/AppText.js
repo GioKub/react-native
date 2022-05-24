@@ -1,12 +1,10 @@
-import React from 'react'
-import { Text } from 'react-native'
+import React from "react";
+import { Text } from "react-native";
 
-import defaultSyles from '../config/styles'
+import defaultStyles from "../config/styles";
 
-function AppText({children, style}){
-    return(
-        <Text style={[defaultSyles.text, style]}>{children}</Text>
-    )
+function AppText({ children, style }) {
+  return <Text style={[defaultStyles.text, style]}>{children}</Text>;
 }
 
-export default AppText
+export default AppText;

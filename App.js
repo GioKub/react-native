@@ -1,10 +1,6 @@
-import React from 'react';
-import LoginScreen from './app/screens/LoginScreen';
+import React from "react";
+import MessagesScreen from "./app/screens/MessagesScreen";
 
 export default function App() {
-  return (
-    <LoginScreen/>
-  );
+  return <MessagesScreen />;
 }
-
-
