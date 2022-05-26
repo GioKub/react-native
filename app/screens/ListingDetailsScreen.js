@@ -5,6 +5,7 @@ import colors from "../config/colors";
 import ListItem from "../components/lists/ListItem";
 import Text from "../components/Text";
 
+
 function ListingDetailsScreen({route}) {
 
   const listing = route.params
